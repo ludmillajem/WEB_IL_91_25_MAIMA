@@ -1,0 +1,220 @@
+
+body{
+    background-color: #94ccff; 
+}
+
+.header{
+    display: block;
+    margin-left: 52px;
+    margin-right: 20px;
+    width: 100%;
+    height: auto;
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li{
+    float: left;
+}
+
+li a, 
+.dropbtn{
+    display: inline-block;
+    color: rgb(54, 84, 130);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover, .dropbtn:hover{
+    background-color: #94ccff
+}
+
+li.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display:none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgb(97, 123, 159);
+    z-index: 1;
+}
+
+.dropdown:hover.dropdown-content{
+    display: block; 
+}
+
+.dropdown-content a{
+    padding: 2px 2px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+p, h1{
+    color:#94ccff;
+    background-color: white;
+    padding: 10px;
+    border: 10px solid;
+    border-color: #d8ecff;
+    border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
+}
+
+.goal-9-main, .home-main, .regional{
+    display: flex;
+    align-items: center;
+    justify-content: center
+   }
+   .goal-9-img, .sdgs-logo{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-bottom: 35px;
+    margin-top: 5px;
+    background-color: white;
+    border: 10px solid;
+    border-color: #d8ecff;
+    border-radius: 15px;
+    width: 339px;
+    height: 300px;
+   }
+   p.goal-92, .home-text1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    background-size: 10px;
+    padding: 10px;
+    color: #94ccff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
+    opacity: 100%;
+    margin-right: 2px;
+    margin-top: -7px;
+    text-indent: 20px;
+   }
+
+.indo-filipina, .indo-jepang, .indo-timorleste{
+    background-color: white;
+    padding: 10px;
+    border: 10px solid;
+    border-color: #d8ecff;
+    border-radius: 15px;
+}
+.indo-filipina{
+    margin-left: 50px;
+}
+
+.multilateral-main{
+    display: flex;
+    align-items: center;
+    justify-content: center
+   }
+   .multilateral-text{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    background-size: 10px;
+    padding: 10px;
+    color: #94ccff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
+    opacity: 100%;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    text-indent: 20px;
+   }
+   .multilateral-img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-top: -2px;
+    background-color: white;
+    border: 10px solid;
+    border-color: #d8ecff;
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+   }
+
+.home-text2{
+    margin-top: 3px;
+}
+
+.regional-img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-top: -2px;
+    background-color: white;
+    border: 10px solid;
+    border-color: #d8ecff;
+    border-radius: 15px;
+    padding: 10px;
+   }
+.regional-text{
+    margin-right: 10px;
+    padding: 10px;
+}
+.regional-text2{
+    margin-top: -2px;
+}
+
+.indo-arab-part1, .indo-arab-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center
+   }
+.indo-arab-text{
+    margin-bottom: 30px;
+}
+   .indo-arab-text1{
+    margin-right: 3px;
+}
+.indo-arab-text1, .indo-arab-text2{
+    margin-top: -3px;
+}
+.indo-arab-img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-bottom: 35px;
+    margin-top: 5px;
+    background-color: white;
+    border: 10px solid;
+    border-color: #d8ecff;
+    border-radius: 15px;
+}
+
+.indo-arab-img-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.indo-arab-img2, .indo-arab-img3{
+    background-color: white;
+    padding: 10px;
+    border: 10px solid;
+    border-color: #d8ecff;
+    border-radius: 15px;
+}
